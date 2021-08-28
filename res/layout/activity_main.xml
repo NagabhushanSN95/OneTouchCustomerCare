@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/krishna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/krishna" />
+
+    <ImageButton
+        android:id="@+id/docomo_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/krishna"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/docomo_balance" />
+
+    <ImageButton
+        android:id="@+id/docomo_internet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/docomo_balance"
+        android:layout_below="@+id/docomo_balance"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/docomo_internet" />
+
+    <ImageButton
+        android:id="@+id/docomo_account_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/docomo_internet"
+        android:layout_below="@+id/docomo_internet"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/docomo_account_details" />
+
+    <ImageButton
+        android:id="@+id/aircel_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/docomo_balance"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/aircel_balance" />
+
+    <ImageButton
+        android:id="@+id/aircel_internet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/docomo_internet"
+        android:layout_alignLeft="@+id/aircel_balance"
+        android:src="@drawable/aircel_internet" />
+
+    <ImageButton
+        android:id="@+id/aircel_account_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/docomo_account_details"
+        android:layout_alignLeft="@+id/aircel_internet"
+        android:src="@drawable/aircel_account_details" />
+
+</RelativeLayout>
